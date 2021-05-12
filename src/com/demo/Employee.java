@@ -2,108 +2,109 @@ package com.demo;
 
 public class Employee {
 	
+	//instance/global varibles
+	// 0, 1
+    private int employeeID;
 	
-
-   // instance variables or global variables
-	private int empID;
+    //null,test1
+	private String employeeName;
 	
-	private String empName;
-	
-	private Double salary;
-	
+	//null it
+	private String deptName;
+	//null
 	private String gender;
 	
-	private String deptName;
 	
-	//default constructor
+	private double salary;
 	
 	public Employee() {
-		System.out.println("inside default constructor");
 		
 	}
-	
-	//5 arg constructor
-	
-	public Employee(int empID,String empName,Double salary,String gender,String deptName) {
-		this.empID = empID;
-		this.empName = 	empName;
-		this.salary = salary;
-		this.gender = gender;
+	// 5 arg constructtor
+	public Employee(int employeeID,String employeeName,String deptName,String gender,double salary)
+	{
+		this.employeeID = employeeID;
+		this.employeeName = employeeName;
 		this.deptName = deptName;
+		this.gender = gender;
+		this.salary = salary;
+		
 	}
 	
-	
-	// 4 arg consrtuctor
-	public Employee(int empID,String empName,Double salary,String gender) {
-		this.empID = empID;
-		this.empName = 	empName;
-		this.salary = salary;
+	// 4 arg constructtor
+	public Employee(int employeeID,String employeeName,String deptName,String gender) {
+		this.employeeID = employeeID;
+		this.employeeName = employeeName;
+		this.deptName = deptName;
 		this.gender = gender;
 	}
 	
-	// 3 arg consrtuctor
-		public Employee(int empID,String empName,Double salary) {
-			
-			this(empID,empName);
+	// 3 arg constructtor
+		public Employee(int employeeID,String employeeName,String deptName) {
+			this(employeeID,employeeName);
 			
 		}
 		
-		private Employee(int empID,String empName) {
-			this.empID = empID;
-			this.empName = 	empName;
+		private Employee(int employeeID,String employeeName) {//ask
+			this.employeeID = employeeID;
+			this.employeeName = employeeName;
 		}
+		
+		
 	
 	
 	
-	
-	
-	public int getEmpID() {
-		return empID;
-	}
-  
-	//local variable
-	public void setEmpID(int empID) {
-		this.empID = empID;
+	public int getEmployeeID() {
+		return employeeID;
 	}
 
-	public String getEmpName() {
-		return empName;
+
+	public void setEmployeeID(int employeeID) {
+		this.employeeID = employeeID;
 	}
 
-	public void setEmpName(String empName) {
-		this.empName = empName;
+
+	public String getEmployeeName() {
+		return employeeName;
 	}
 
-	public Double getSalary() {
-		return salary;
+
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
 	}
 
-	public void setSalary(Double salary) {
-		this.salary = salary;
-	}
-
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
 
 	public String getDeptName() {
 		return deptName;
 	}
 
+
 	public void setDeptName(String deptName) {
 		this.deptName = deptName;
 	}
-	
 
-	@Override
-	public String toString() {
-		return "Employee [empID=" + empID + ", empName=" + empName + ", salary=" + salary + ", gender=" + gender
-				+ ", deptName=" + deptName + "]";
+
+	public String getGender() {
+		return gender;
 	}
+
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+
+	public double getSalary() {
+		return salary;
+	}
+
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+
+	
 	
 
 }
