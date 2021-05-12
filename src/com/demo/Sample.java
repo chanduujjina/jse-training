@@ -4,6 +4,36 @@ public class Sample {
 
 	
 
+	
+
+	public void setSampleID(int sampleID) {
+		this.sampleID = sampleID;
+	}
+
+	public void setSampleName(String sampleName) {
+		this.sampleName = sampleName;
+	}
+
+	public void setLabName(String labName) {
+		this.labName = labName;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+
+	public void setAdmissionType(String admissionType) {
+		this.admissionType = admissionType;
+	}
+
+	public void setCovidTest(String covidTest) {
+		this.covidTest = covidTest;
+	}
+
 	private int sampleID;
 
 	private String sampleName;
@@ -43,6 +73,34 @@ public class Sample {
 		this.address = address;
 	
 }
+	
+	public int getSampleID() {
+		return sampleID;
+	}
+
+	public String getSampleName() {
+		return sampleName;
+	}
+
+	public String getLabName() {
+		return labName;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public String getDeptName() {
+		return deptName;
+	}
+
+	public String getAdmissionType() {
+		return admissionType;
+	}
+
+	public String getCovidTest() {
+		return covidTest;
+	}
 	@Override
 	public String toString() {
 		return "Sample [sampleID=" + sampleID + ", sampleName=" + sampleName + ", labName=" + labName + ", address="

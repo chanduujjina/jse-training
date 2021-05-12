@@ -27,3 +27,8 @@ Object methods in java
 5.wait(2 methods)
 6.notify(3 methods)
 7.getClass
+
+
+In C language you have pass by value and pass by reference
+
+but in java we don't have pass by reference we have only pass by value
