@@ -6,42 +6,43 @@ public class EmployeeClient {
 
 	public static void main(String[] args) {
 		
-		//create first object
+		//create first employee object
+		Employee employee1 = new Employee();
 		
-		Employee emp1 = new Employee();
-		emp1.setEmpID(1);
-		emp1.setEmpName("Anu");
-		emp1.setGender("Female");
-		emp1.setSalary(100000.0);
-		emp1.setDeptName("it");
+		//set data to the object using setter/mutator method
 		
-		System.out.println("employee 1 deatils::"+emp1);
+		employee1.setEmployeeID(1);
+		employee1.setEmployeeName("test1");
+		employee1.setGender("male");
+		employee1.setSalary(100);
+		employee1.setDeptName("it");
 		
-		Employee emp2 = new Employee();
+		System.out.println(employee1.getEmployeeName());
 		
-		emp2.setEmpID(2);
-		emp2.setEmpName("Test");
-		emp2.setGender("Female");
-		emp2.setSalary(100000.0);
-		emp2.setDeptName("it");
+		//create second employee object
+		Employee employee2 = new Employee();
 		
-		System.out.println("employee 2 deatils::"+emp2);
+		employee2.setEmployeeID(2);
+		employee2.setEmployeeName("test2");
+		employee2.setGender("male");
+		employee2.setSalary(100);
+		employee2.setDeptName("it");
+		System.out.println(employee1.getEmployeeID());
 		
-		Employee emp3 = new Employee(3,"test",100000.0,"Male","it");
+		//create a third object using constrctor
 		
-		System.out.println("employee 3 deatils::"+emp3);
-		
-		Employee emp4 = new Employee(3,"test",100000.0,"Male");
-		
-		System.out.println("employee 4 deatils::"+emp4);
-		
-		Employee emp5 = new Employee(3,"test",100000.0);
-		System.out.println("employee 4 deatils::"+emp5);
-		
-		
-		
-		
+		Employee employee3 = new Employee(3,"test3","it","male",100);
+		System.out.println(employee3.getEmployeeID());
+		System.out.println(employee3.getEmployeeName());
+		System.out.println(employee3.getDeptName());
 
+		System.out.println(employee3.getGender());
+		System.out.println(employee3.getSalary());
+		
+		//create a third object using 4 arg constructor
+		
+		Employee employee4= new Employee(4,"test3","it","male");
+		
 	}
 
 }

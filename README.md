@@ -12,3 +12,18 @@ PrimeNumber : A number having factor count is  exactly 2
 3(1,3)- - Its a prime
 4(1,2,4) - not a prime
 5(1,5) -its a prime
+
+Object is super class for all custom objects
+Operators:
+For loop,Switch block
+
+5/10/2021:
+-------------------
+Object methods in java
+
+1.HashCode
+2.Equals
+3.toString
+5.wait(2 methods)
+6.notify(3 methods)
+7.getClass
