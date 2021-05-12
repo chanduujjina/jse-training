@@ -9,7 +9,7 @@ public class SampleClient {
 		
 		Sample  s1 = new  Sample(1, "blood", "HemoCnter", "test","pathology","general","positive");
 		Sample  s2 = new  Sample(2, "chemo", "CancerCnter", "test1","pathology");
-		Sample  s3 = new  Sample(2, "chemo", "CancerCnter", "test1","Cancer");
+		Sample  s3 = new  Sample(2, "chemo", "CancerCnter", "test1","Mr");
 		Sample  s4 = new  Sample(2, "chemo", "CancerCnter", "test1","Mr");
 		
 		System.out.println(s1);

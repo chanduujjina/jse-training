@@ -15,7 +15,7 @@ public class Sample {
 	private String covidTest;
 	
 	public Sample(int sampleID, String sampleName, String labName, String address,String deptName,String admissionType,String covidTest) {
-		super();
+		super();//ask
 		this.sampleID = sampleID;
 		this.sampleName = sampleName;
 		this.labName = labName;
