@@ -28,7 +28,27 @@ Object methods in java
 6.notify(3 methods)
 7.getClass
 
+what is the use of hashCode and equals:
+-------------------------------------
+1.To avoid the duplicate data in the object for that you need to override the hash code and equals method in your pojo class
+POJO-->Plain old java object
+
+when we can call a class as a pojo class:
+----------------------------------------
+A class which is not extend or implements any other class that class we can call it as pojo class.
+
+
+what is the need of toString:
+---------------------------
+
 
 In C language you have pass by value and pass by reference
 
 but in java we don't have pass by reference we have only pass by value
+
+Method:
+------
+
+two types of methods:
+1.Method with return type
+2.Void method(method with out return type)

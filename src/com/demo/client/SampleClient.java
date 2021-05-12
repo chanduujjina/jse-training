@@ -8,17 +8,18 @@ public class SampleClient {
 		// to access that class first we need to create an object
 
 		Sample s1 = new Sample(1, "blood", "HemoCnter", "test", "pathology", "general", "positive");
-		Sample s2 = new Sample(2, "chemo", "CancerCnter", "test1", "pathology");
-		Sample s3 = new Sample(2, "chemo", "CancerCnter", "test1", "Cancer");
-		Sample s4 = new Sample(2, "chemo", "CancerCnter", "test1", "Mr");
+		Sample s2 = new Sample(2, "blood", "HemoCnter", "test", "pathology", "general", "negative");
+		Sample s3 = new Sample(3, "chemo", "CancerCnter", "test1", "pathology");
+		Sample s4 = new Sample(4, "chemo", "CancerCnter", "test1", "Cancer");
+		Sample s5 = new Sample(5, "chemo", "CancerCnter", "test1", "Mr");
 
 		System.out.println(s1);
-		System.out.println(s2);
+		System.out.println(s2);     
 
 		// print hashcode of object 1
 
 		System.out.println(s1.hashCode());
-		System.out.println(s2.hashCode());
+		System.out.println(s2.hashCode());   
 		System.out.println(s3.hashCode());
 		System.out.println(s4.hashCode());
 
@@ -27,12 +28,20 @@ public class SampleClient {
 
 		System.out.println(s3.equals(s4));
 
-		//unrefenceObject(s1);
-		//System.out.println(s1.getSampleID());
+		unrefenceObject(s1);
+		System.out.println(s1.getSampleID());
 		
-		mutateObjectData(s1);
+		mutateObjectData(s1,"positive");
 		System.out.println(s1);
-
+		
+		//postive case
+		Sample positivesample =getCovidPositiveReport(s1);
+		System.out.println(positivesample);
+		
+		//negative case
+		Sample negativesample =getCovidPositiveReport(s2);
+		System.out.println(negativesample);
+		
 	}
 
 	/**
@@ -45,8 +54,30 @@ public class SampleClient {
 		sample = null;
 	}
 	
-	public static void mutateObjectData(Sample sample) {
-		sample.setSampleName("HemoCnter1");
-	}
+	/**
+	 * @param sample
+	 * @param covidReport
+	 * 
+	 * Purpose of this method is to mutate object data with proxy reference
+	 */
+	public static void mutateObjectData(Sample sample,String covidReport) {
+		if(sample.getCovidTest().equals("positive")) {
+			sample.setLabName("test1");
+		}
+		
+	}	
+		/**
+		 * @param sample
+		 * @return
+		 * purpose of this method is to filter covid positive samples
+		 */
+		public static Sample getCovidPositiveReport(Sample sample) {
+			if(sample.getCovidTest().equals("positive")) {
+				return sample;
+			}
+			return null;
+		}
+		
+	
 
 }
