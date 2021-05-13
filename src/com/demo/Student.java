@@ -12,5 +12,7 @@ public class Student {
 	private String studentName;
 	
 	private String gender;
+	//wraper class
+	private Address adress;
 
 }

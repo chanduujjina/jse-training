@@ -52,3 +52,69 @@ Method:
 two types of methods:
 1.Method with return type
 2.Void method(method with out return type)
+
+OOPs(Object Oriented Programing)
+
+Has a relationShip
+is a relationship
+
+1.Inheritance
+2.Polymorphism
+3.Encapsulation
+
+primitive
+Wraper
+
+
+
+int(0) -->Integer(null)
+String(null)-->String(null)
+long(0)->Long(null)
+double(0) -->Double(null)
+decimal-->Decimal
+
+What is inheritance?
+Aquaring properties/behaviour from parent class to child class
+
+Base Class to Derivied class
+Super class to subclass
+
+Anu:
+---------
+
+ATT
+Verizon
+
+Base class Name : Carrier
+
+ATT
+---------
+
+private String carrierName;;
+private String carrierId;
+
+private String planType;
+
+private String planDetails
+
+private String attCrrierCenter;
+private String attNetworkInfo
+
+
+Verizon Data:
+
+private String carrierName;;
+private String carrierId; 
+
+private String planType;
+
+private String planDetails
+
+private String verizonCrrierCenter;
+private String verizonNetworkInfo
+
+
+
+
+
+
