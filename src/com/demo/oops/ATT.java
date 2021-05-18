@@ -1,7 +1,7 @@
 package com.demo.oops;
 
 
-	public class ATT extends Carrier {
+	public class ATT extends BaseNetworkInfo {
 		
 		
 		private String attCrrierCenter;

@@ -1,6 +1,6 @@
 package com.demo.oops;
 
-	public class Verison extends Carrier {
+	public class Verison extends BaseNetworkInfo {
 		
 		
 		private String verizonCrrierCenter;
