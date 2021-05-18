@@ -5,5 +5,5 @@ public class Naukari {
 	private int userId;
 	private String userName;
 	
-	private String accountfeatures;
+	private String profileName;
 }

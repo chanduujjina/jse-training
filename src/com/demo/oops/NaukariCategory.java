@@ -4,7 +4,7 @@ public class NaukariCategory {
 	
     private PremiumUser premiumUser;
 	private NonPremiumUser nonpremiumUser;
-}
+
 	public NaukariCategory(PremiumUser premiumUser, NonPremiumUser nonpremiumUser) {
 		super();
 		this.premiumUser = premiumUser;
