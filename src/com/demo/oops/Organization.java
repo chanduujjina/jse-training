@@ -10,10 +10,10 @@ public class Organization {
 				+ ", contractEmployee=" + contractEmployee + "]";
 	}
 
-
+//confusion
 	private String organizationName;
 	
-	private PermanentEmployee  perEmployee;
+	private PermanentEmployee  perEmployee;//wrapper class
 	
 	private ContractEmployee contractEmployee;
 
