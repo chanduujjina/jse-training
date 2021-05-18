@@ -5,13 +5,22 @@ import com.demo.Sample;
 public class SampleClient {
 
 	public static void main(String[] args) {
-		// to access that class first we need to create an object
+
+		// to access that class first we need to create  an object
+		
+		Sample  s1 = new  Sample(1, "blood", "HemoCnter", "test","pathology","general","positive");
+		Sample  s2 = new  Sample(2, "chemo", "CancerCnter", "test1","pathology");
+		Sample  s3 = new  Sample(2, "chemo", "CancerCnter", "test1","Mr");
+		Sample  s4 = new  Sample(2, "chemo", "CancerCnter", "test1","Mr");
+		
+
 
 		Sample s1 = new Sample(1, "blood", "HemoCnter", "test", "pathology", "general", "positive");
 		Sample s2 = new Sample(2, "blood", "HemoCnter", "test", "pathology", "general", "negative");
 		Sample s3 = new Sample(3, "chemo", "CancerCnter", "test1", "pathology");
 		Sample s4 = new Sample(4, "chemo", "CancerCnter", "test1", "Cancer");
 		Sample s5 = new Sample(5, "chemo", "CancerCnter", "test1", "Mr");
+
 
 		System.out.println(s1);
 		System.out.println(s2);     
