@@ -4,11 +4,22 @@ package com.demo.oops;
 import lombok.Builder;
 import lombok.Data;
 
-@Data
-
-@Builder
 public class BrideBaseInfo {
 	
+
+	@Override
+	public String toString() {
+		return "BrideBaseInfo [brideName=" + brideName + ", age=" + age + ", education=" + education + ", occupation="
+				+ occupation + "]";
+	}
+
+	public BrideBaseInfo(String brideName, int age, String education, String occupation) {
+		super();
+		this.brideName = brideName;
+		this.age = age;
+		this.education = education;
+		this.occupation = occupation;
+	}
 
 	private String brideName;
 	
@@ -20,46 +31,5 @@ public class BrideBaseInfo {
 	
 	
 
-
-/*@Override
-	public String toString() {
-		return "BaseInfo [employeeId=" + employeeId + ", employeeName=" + employeeName + ", gender=" + gender
-				+ ", address=" + address + "]";
-	}
-
-
-protected BaseInfo(int employeeId, String employeeName, String gender, String address) {
-		
-		this.employeeId = employeeId;
-		this.employeeName = employeeName;
-		this.gender = gender;
-		this.address =  address;
-		
-	}
-	
-	
-	public int getEmployeeId() {
-		return employeeId;
-	}
-
-
-	public String getEmployeeName() {
-		return employeeName;
-	}
-
-
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
-	
-	 public String getAddress() {
-			return address;
-		}
-
-	*/
 
 }
