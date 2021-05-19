@@ -6,4 +6,13 @@ public class Naukari {
 	private String userName;
 	
 	private String profileName;
+	
+	public Naukari(int userId, String userName, String profileName) {
+		super();
+		this.userId = userId;
+		this.userName = userName;
+		this.profileName = profileName;
+	}
+
+	
 }

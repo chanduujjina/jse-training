@@ -7,8 +7,8 @@ public class MainInheritance {
 		// TODO Auto-generated method stub
 		PremiumUser premiumUser = new PremiumUser(34,"Anu","Anudhark","23-10-2012","Golden Package");
 	   NonPremiumUser nonpremiumUser = new NonPremiumUser(23,"Aadee","Aadeedhar","After year","28-10-2016");
-       Naukari naukari = new Naukari(premiumUser,nonpremiumUser);
-	   System.out.println(naukari);
+	   NaukariCategory naukariCategory = new NaukariCategory(premiumUser, nonpremiumUser);
+	   System.out.println(naukariCategory);
 
 }
 }
