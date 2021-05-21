@@ -115,8 +115,43 @@ private String verizonNetworkInfo
 
 Akshara also involving in   discussion
 
+1.How to call parent class constructor from child class ?
+2.How to call a constructor from another constructor of current class ?
+
+how to access variables and methods of parent class from subclass
+
+How to call a method from another method
+
+Inheritance rules:
+Child can inherit parent propeties and behaviours
+Parent cannot inherit child properties
 
 
+
+
+Is java will support multiple inheritance
+
+
+C extends A  m1(),String name="test"
+C extends B  m1() String name ="test"
+
+
+
+
+
+
+Debugging short cuts
+F6 -->Cursor will Go to the next line
+
+F5-->Inside method
+
+F8 -->will go to next debug point
+
+
+To inspect or see the value of current varible 
+
+
+ctr+shift+i
 
 
 
