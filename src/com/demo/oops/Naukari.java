@@ -14,5 +14,10 @@ public class Naukari {
 		this.profileName = profileName;
 	}
 
+	@Override
+	public String toString() {
+		return "Naukari [userId=" + userId + ", userName=" + userName + ", profileName=" + profileName + "]";
+	}
+
 	
 }
