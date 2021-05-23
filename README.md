@@ -153,5 +153,52 @@ To inspect or see the value of current varible
 
 ctr+shift+i
 
+Rules of  inheritance:
+--------------------------
+Child can inherit properties or behaviour from  parent  class
+
+Parent  is not  supposed to  inherit  child data
+With Super class reference you can  hold sub class object when the  two objects having is a relationship
+
+
+Child child = new Child();
+
+Parent1 parent1 = new Child(); 
+
+what is a final keyword in java?
+
+how  a class can  inherit other class?
+
+Use extends key word(Needs to extend parent from child)
+
+c1 ,c2 ->p1(possible scenarios)-->Single level inheritance
+
+c1->p1
+c1->p2
+
+Multiple inheritance
+
+Is Java will support multiple inheritance?
+if no why its not supporting
+public clss parent1 {
+
+public void m1(){
+}
+}
+
+public clss parent2 {
+
+public void m1(){
+}
+}
+
+public child extends Parent1,Parent2{
+
+   public void  m2(){
+     m1();
+   }
+}
+
+
 
 

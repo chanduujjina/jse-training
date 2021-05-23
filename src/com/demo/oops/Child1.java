@@ -1,12 +1,12 @@
 package com.demo.oops;
 
-public class Child extends Parent1{
-	
+public class Child1 extends Parent1{
+	//instance varibles
      private String childName;
 	
 	private String relationWithParent;
-
-	public Child(String name, String assetDetails, String childName, String relationWithParent) {
+  // parametorized constrctor
+	public Child1(String name, String assetDetails, String childName, String relationWithParent) {
 		super(name, assetDetails);
 		this.childName = childName;
 		this.relationWithParent = relationWithParent;
@@ -29,22 +29,7 @@ public class Child extends Parent1{
 	
 	
 	
-	/**
-	 * Purpose of this method is to call current class method
-	 */
-	public void callgetChildInfo() {
-		getChildInfo();
-	}
 	
-	/**
-	 * Purpose of this method to call method in parent class
-	 * 
-	 */
-	public void callgetParentDetails() {
-		
-		//method call
-		getParentDetails();
-	}
 	
 	
 	
