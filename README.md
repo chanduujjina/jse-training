@@ -199,6 +199,33 @@ public child extends Parent1,Parent2{
    }
 }
 
+PolyMorphism:
+-------------
+
+Appearing a functionality in diffrent forms.
+
+Types of PolyMorphism:
+------------------
+
+CompileTime PolyMorphism(Method overloading)
+
+Runtime PolyMorphism(Method overriding)
+
+
+Method overloading:
+-----------------
+1.you can overload a method inside a class only
+2.Method name should be same but there might be a diffrence as below
+
+.Diffrence in arguement list(parameters)
+.diffrence in data types for arguements/return type
+
+Method overriding:
+-----------------
+It deals with inheritance
+
+
+
 
 
 
