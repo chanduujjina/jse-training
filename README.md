@@ -224,6 +224,10 @@ Method overriding:
 -----------------
 It deals with inheritance
 
+Encapsulation:
+Abstract class
+_-------------------
+
 
 
 
