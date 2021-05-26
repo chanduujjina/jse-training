@@ -229,6 +229,37 @@ Abstract class
 _-------------------
 
 
+Abstract class:
+-----------
+
+an abstract class can have atleast one abstract method and may have one more concrete methods is called abstract class
+
+how we can declare abstract class:
+-----------------------------
+
+public abstract class Test{
+
+}
+
+what is an abstract method:
+----------------------
+a method which is having definition but don't have body is called abstract method
+
+how we can declare a abstract method
+
+abstract void m1();
+
+what is an concrete method;
+-------------------------
+A method which is having a body is called concrete method
+
+public void m1(){
+}
+
+
+
+
+
 
 
 
