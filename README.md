@@ -256,6 +256,35 @@ A method which is having a body is called concrete method
 public void m1(){
 }
 
+Abstract class Assignment:
+-------------------------
+
+Organization
+ 
+ IT,
+
+ Admin,
+ 
+ 
+ public Abstarct class Organization{
+  public String getOrganizationDetails(){
+     return "Infosys STP Hyderabad";
+  }
+  
+  abstarct String getTeamDetails();
+ 
+ }
+
+------------------------------
+
+public Abstarct class College {
+   public String getCollegeDetails(){
+   }
+   
+   abstarct String getBrachDetails();
+}
+
+ECE,IT,CSE
 
 
 
