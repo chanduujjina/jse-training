@@ -285,6 +285,7 @@ public Abstarct class College {
 }
 
 ECE,IT,CSE
+soon will complete assignment2 and will rise PR
 
 
 
