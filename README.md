@@ -224,6 +224,10 @@ Method overriding:
 -----------------
 It deals with inheritance
 
+Encapsulation:
+Abstract class
+_-------------------
+
 
 Abstract class:
 -----------
@@ -281,6 +285,22 @@ public Abstarct class College {
 }
 
 ECE,IT,CSE
+soon will complete assignment2 and will rise PR
+
+
+Tools:
+GIT,Maven
+
+Code  governanace tools:
+Sonar,JUNit,refacroring procudure
+
+
+Logging:
+---------
+
+Log4j,
+Audting:
+-----------Spring AOP
 
 
 Interface:
