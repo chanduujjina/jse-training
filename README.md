@@ -283,6 +283,19 @@ public Abstarct class College {
 ECE,IT,CSE
 
 
+Interface:
+----------
+
+what is an interface?
+
+Interface is class which has only abstract methods
+
+To inherit interface to class we can use implements keyword
+
+How to achieve 100% abstraction ?
+Using interface
+
+
 
 
 
