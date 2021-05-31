@@ -316,6 +316,12 @@ How to achieve 100% abstraction ?
 Using interface
 
 
+what is cloning ?
+cloning is nothing but copying object
+
+Two types of cloning:
+1.Shallow cloning(both refrences pointing to the same object data)
+2.Deep cloning(maintaining diffrent copies)
 
 
 
