@@ -323,6 +323,25 @@ Two types of cloning:
 1.Shallow cloning(both refrences pointing to the same object data)
 2.Deep cloning(maintaining diffrent copies)
 
+what is a marker interface?
+An interface don't have any abstarct methods resides in it is called as marker interface.
+
+what is use of marker interface?
+Marker interface will give Object information
+
+
+
+what are the marker interfaces in java.lang package ?
+1.Cloneable interface
+2.Serilizable interface
+3.Remote interface
+
+What is Serilization ?
+Object data needs to serilized(converting into byte code) when sending out of JVM is called Serilization
+
+
+
+
 
 
 

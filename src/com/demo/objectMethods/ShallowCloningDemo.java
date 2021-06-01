@@ -16,7 +16,7 @@ public class ShallowCloningDemo {
 		System.out.println("product2 data::" + product2);
 		product2.setPrice(600);
 
-		System.out.println("product1 data after mutating from product1 refrence::" + product1);
+		System.out.println("product1 data after mutating from product2 refrence::" + product1);
 
 		System.out.println("product2 data after mutating from product2 refrence::" + product2);
 
