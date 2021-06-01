@@ -224,6 +224,10 @@ Method overriding:
 -----------------
 It deals with inheritance
 
+Encapsulation:
+Abstract class
+_-------------------
+
 
 Abstract class:
 -----------
@@ -281,8 +285,43 @@ public Abstarct class College {
 }
 
 ECE,IT,CSE
+soon will complete assignment2 and will rise PR
 
 
+Tools:
+GIT,Maven
+
+Code  governanace tools:
+Sonar,JUNit,refacroring procudure
+
+
+Logging:
+---------
+
+Log4j,
+Audting:
+-----------Spring AOP
+
+
+Interface:
+----------
+
+what is an interface?
+
+Interface is class which has only abstract methods
+
+To inherit interface to class we can use implements keyword
+
+How to achieve 100% abstraction ?
+Using interface
+
+
+what is cloning ?
+cloning is nothing but copying object
+
+Two types of cloning:
+1.Shallow cloning(both refrences pointing to the same object data)
+2.Deep cloning(maintaining diffrent copies)
 
 
 
