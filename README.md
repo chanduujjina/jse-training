@@ -339,6 +339,27 @@ what are the marker interfaces in java.lang package ?
 What is Serilization ?
 Object data needs to serilized(converting into byte code) when sending out of JVM is called Serilization
 
+what is final keyword in java?
+
+final keyword we can apply at below places
+1.Class level
+if the class declared as final
+a).Cannot inherit that class
+b).Cannot re-intialize the same 
+2.Variable level
+a)Cannot re-intialize that
+3.Method level
+cannot override that method
+
+What is Immutable class?
+How to create Custom immutable class
+
+1.Your class should be final
+2.Every variable in a class must be final
+3.You should have public constructor
+4.Needs to create getters and don't have setters
+
+
 
 
 
