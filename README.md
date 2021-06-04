@@ -361,6 +361,14 @@ How to create Custom immutable class
 
 
 
+04Jun:
+String Handlers:
+
+Why String is immutable class?
+What is String pool
+
+How to copy data from heap area to pool area
+
 
 
 
