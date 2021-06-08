@@ -69,6 +69,36 @@ public class StringHandler {
 		String subStringval = filePath.substring(filePath.lastIndexOf("/")+1, filePath.length());
 		System.out.println(subStringval);
 		
+		String dbValue= " test ";
+		
+		String inputValue ="test";
+		
+		if(dbValue.trim().equals(inputValue)) {
+			System.out.println("both are equal");
+		}
+		else {
+			System.out.println("both are not equal");
+		}
+		
+		String name1  = "Anu Java";
+		
+		String name2 = "Anu";
+		
+		//if String 1 and String 2 are Same it will return zero 
+		//if String 1 is greater than String 2 it will return Poitive value
+		//if String 2 is greather than String 1 it will retutn negative value
+		System.out.println(name1.compareTo(name2));
+		
+		//
+	if(name1.endsWith("Java")) {
+		name1 =name1.replace("Java", "Developer");
+	}
+	System.out.println(name1);
+	
+	
+		
+		
+		
 		
 		
 		
