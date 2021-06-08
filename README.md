@@ -369,6 +369,20 @@ What is String pool
 
 How to copy data from heap area to pool area
 
+String Buffer and String Builder:
+
+
+Name id age salary,gender,dept
+
+Fetch all employees
+select * from employee
+
+select * from employee where id =?
+
+select * from employee where age>? and salary ?
+
+select * from employee where gender ='Female'
+
 
 
 
