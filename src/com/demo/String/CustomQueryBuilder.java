@@ -17,7 +17,7 @@ public class CustomQueryBuilder {
 		}
 		int count =0;
 		if(employeeCriteria.getId()>0) {
-			buffer.append("  id= "+employeeCriteria.getId());
+			buffer.append("id="+employeeCriteria.getId());
 			System.out.println(buffer.toString());
 			count++;
 			
@@ -27,9 +27,9 @@ public class CustomQueryBuilder {
 		
 		if(employeeCriteria.getName()!=null) {
 			if(count>0) {
-				buffer.append(" and");
+				buffer.append(" and ");
 			}
-			buffer.append("name ="+employeeCriteria.getName());
+			buffer.append("name="+employeeCriteria.getName());
 			System.out.println(buffer.toString());
 			count++;
 			
@@ -40,10 +40,19 @@ public class CustomQueryBuilder {
 				buffer.append(" and ");
 				System.out.println(buffer.toString());
 			}
-			buffer.append("gender ="+employeeCriteria.getGender());
+			buffer.append("gender="+employeeCriteria.getGender());
 			
 			
 		}
+		
+		if(employeeCriteria.getDeptName()!=null) {
+			if(count>0) {
+				buffer.append(" and ");
+				System.out.println(buffer.toString());
+			}
+			buffer.append("deptName="+employeeCriteria.getDeptName());
+		}
+		
 		return buffer.toString();
 	}
 
