@@ -2,6 +2,12 @@ package com.demo.exceptionDemo;
 
 public class RuntimeExceptionDemo {
 	
+	/**
+	 * @param value
+	 * @return
+	 * @throws Exception
+	 * Purpose of this
+	 */
 	public int getIntgerFromString(String value) throws Exception {
 		
 		//"123" -->123
@@ -15,6 +21,13 @@ public class RuntimeExceptionDemo {
 		
 	}
 	
+//Chandu@129
+	
+	/**
+	 * @param name
+	 * @return
+	 * purpose of this method to verify a nullpointer condition
+	 */
 	public int getLength(String name) {
 		int length =0;
 		if(null != name) {
@@ -25,6 +38,13 @@ public class RuntimeExceptionDemo {
 	
 	
 	
+	/**
+	 * @param num1
+	 * @param num2
+	 * @return
+	 * @throws Exception
+	 * Purpose of this method to handle infinite value
+	 */
 	public  int getValue(int num1,int num2) throws Exception {
 		
 		try {

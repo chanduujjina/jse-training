@@ -383,6 +383,11 @@ select * from employee where age>? and salary ?
 
 select * from employee where gender ='Female'
 
+Chandu@129
+
+1.Password must be strong means 8 digit or more
+2.it contains numeric and atleast one capital and special character
+
 
 
 
