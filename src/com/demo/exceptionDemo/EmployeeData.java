@@ -33,6 +33,14 @@ public class EmployeeData {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
+	
+	public String getSsn() {
+		return ssn;
+	}
+
+	public void setSsn(String ssn) {
+		this.ssn = ssn;
+	}
 
 	private int id;
 	private String name;
@@ -40,5 +48,7 @@ public class EmployeeData {
 	private double salary;
 	
 	private String gender;
+	
+	private String ssn;
 
 }
