@@ -24,4 +24,27 @@ public class ValidationImpl_V1Test {
 		System.out.println(errorList);
 	}
 	
+	@Test
+	public void testvalidateEmployeeData_id_name() throws ValidationException {
+		EmployeeData data = new EmployeeData();
+		
+		data.setId(-1);
+		data.setName("chandu123");
+		data.setSsn("Chandu123");
+		impl = new ValidationImpl_v1(data);
+		List<ErrorInfo> errorList =impl.validateEmployeeData();
+		System.out.println(errorList);
+	}
+	@Test
+	
+	public void testvalidateEmployeeData_id_name_ssn() throws ValidationException {
+		EmployeeData data = new EmployeeData();
+		
+		data.setId(-1);
+		data.setName("chandu123");
+		data.setSsn("Chandu123@");
+		impl = new ValidationImpl_v1(data);
+		List<ErrorInfo> errorList =impl.validateEmployeeData();
+		System.out.println(errorList);
+	}
 }
