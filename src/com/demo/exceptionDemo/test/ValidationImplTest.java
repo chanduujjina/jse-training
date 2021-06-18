@@ -29,6 +29,15 @@ public class ValidationImplTest {
 		impl = new ValidationImpl(data);
 		impl.validateEmployeeData();
 	}
+	@Test(expected= ValidationException.class)
+	public void testvalidateEmployeeData_ssn() throws ValidationException {
+		EmployeeData data = new EmployeeData();
+		data.setId(1);
+		data.setName("Chandu");
+		data.setSsn("test@123");
+		impl = new ValidationImpl(data);
+		impl.validateEmployeeData();
+	}
 	
 	
 

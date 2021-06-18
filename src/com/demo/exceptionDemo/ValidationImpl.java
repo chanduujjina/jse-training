@@ -18,6 +18,10 @@ public class ValidationImpl {
 			throw new ValidationException("incorrect name it should be alphabetical");
 		}
 		
+		if(!employeeData.getSsn().matches("^[a-zA-Z0-9]+$")) {
+			throw new ValidationException("ssn should be aphanumeric");
+		}
+		
 		
 	}
 
