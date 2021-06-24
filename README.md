@@ -388,6 +388,38 @@ Chandu@129
 1.Password must be strong means 8 digit or more
 2.it contains numeric and atleast one capital and special character
 
+Anu:
+Validate Student object
+student_Id
+student_Name
+gender
+sSn
+Akshra Assign
+sample_Id
+sample_Name
+lab_Name
+diagnosisCode
+
+what is serilization?
+
+it is a process of converting java object to byte code
+what is the need of serilization ?
+when your sending data out of jvm that needs to serilized
+
+what is marker interface ?
+an interface don't have any methods is called marker interface
+
+it will provide oject information
+
+
+which  interface are marker interface in java.lang package?
+
+1.Cloneable interface
+2.Serilizable interface
+3.Remote interface
+
+
+
 
 
 

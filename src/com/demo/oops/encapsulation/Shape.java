@@ -1,5 +1,5 @@
 package com.demo.oops.encapsulation;
 
- interface Shape {
+ public interface Shape {
   void draw();
 }
