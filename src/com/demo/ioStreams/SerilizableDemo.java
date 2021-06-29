@@ -12,7 +12,7 @@ public class SerilizableDemo {
 	
 	//serilizae the activity object
 	
-	FileOutputStream fout = new FileOutputStream("abc.ser");																																																																																																																																																			
+	FileOutputStream fout = new FileOutputStream("test.ser");																																																																																																																																																			
 	
 	ObjectOutputStream out = new ObjectOutputStream(fout);
 	
@@ -20,7 +20,7 @@ public class SerilizableDemo {
 	
 	//desarlize object
 	
-	FileInputStream fin = new FileInputStream("abc.ser");
+	FileInputStream fin = new FileInputStream("test.ser");
 	
 	ObjectInputStream in = new ObjectInputStream(fin);
 	
