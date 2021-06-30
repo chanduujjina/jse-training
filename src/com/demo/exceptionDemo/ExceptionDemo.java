@@ -27,5 +27,13 @@ public class ExceptionDemo {
 		ValidationImpl	impl = new ValidationImpl(data);
 		impl.validateEmployeeData();
 	}
+	public static void validateEmployeeData_Name() throws ValidationException {//ask question
+		EmployeeData data = new EmployeeData();
+		
+		data.setName("^[a-zA-Z]*$");
+		
+		ValidationImpl	impl = new ValidationImpl(data);
+		impl.validateEmployeeData();
+	}
 
 }
