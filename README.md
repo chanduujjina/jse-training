@@ -417,6 +417,7 @@ which  interface are marker interface in java.lang package?
 1.Cloneable interface
 2.Serilizable interface
 3.Remote interface
+io streams means input output streams 
 
 
 
